@@ -11,6 +11,7 @@ export interface ITrack {
   listens: number
   picture: string
   audio: string
-  album_id: number
+  album: string
+  artist: string
   comments: IComment[]
 }

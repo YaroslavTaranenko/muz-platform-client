@@ -13,9 +13,9 @@ const TrackItem: React.FC<TrackItemProps> = ({ track, active = false }) => {
     <Card className={styles.track}>
       <IconButton>{active ? <Pause /> : <PlayArrow />}</IconButton>
       <img width={70} height={70} src={`/${track.picture}`} />
-      <Grid container direction="column">
+      <Grid container direction="column" style={{ margin: '0 20px' }}>
         <div>{track.name}</div>
-        <div>{track.name}</div>
+        <div style={{ fontSize: 14, color: 'grey' }}>{track.artist}</div>
       </Grid>
     </Card>
   )
