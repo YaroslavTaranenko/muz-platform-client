@@ -1,7 +1,7 @@
 import Navbar from '../../components/Navbar'
 import MainLayout from '../../layouts/MainLayout'
 import { Box, Button, Card, Grid } from '@mui/material'
-import { useRouter } from 'next/dist/client/router'
+import { useRouter } from 'next/router'
 import TrackList from '../../components/TrackList'
 import { ITrack } from '../../types/track'
 
